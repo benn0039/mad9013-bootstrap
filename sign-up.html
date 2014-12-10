@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>EMMA - SIGN UP</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">EMMA</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="standings.html">Standings</a></li>
+              <li class="active"><a href="sign-up.html">Sign Up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- Begin page content -->
+    <div id="content" class="container">
+      <div class="page-header">
+        <h1>Sign Up</h1>
+      </div>
+      <p class="lead">Join the EMMA for just $129 per year and receive access to all parks even during peak times.</p>
+    <form role="form" class="sign-up-container clearfix">
+        <div class="control-container clearfix col-md-6">
+            <h4>Personal Information</h4>
+            <div class="form-group">
+                <label for="fullName">Name:</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your name" >
+            </div>
+            <div class="form-group">
+                <label for="adress">Address:</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address" >
+            </div>
+            <div class="form-group half">  
+                <label for="city">City:</label>
+                <input type="text" class="form-control" id="city" placeholder="Enter your city" >
+            </div> 
+            <div class="form-group second-half">  
+                <label for="city">Province:</label>
+                <input type="text" class="form-control" id="province" placeholder="Enter your province" >
+            </div> 
+        </div>
+        <div class="control-container clearfix col-md-6">
+            <h4>Payment Information</h4>
+            <div class="form-group">
+                <label for="cardType">Card Type:</label>
+                <select class="form-control" id="cardType">
+                    <option>American Express</option>
+                    <option>Mastercard</option>
+                    <option>VISA</option>
+                    <option>Diner's Club - Yeah, we're still around!</option>
+                    <option>Sears</option>           
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Enter your credit card number" >
+            </div>
+            <div class="form-group third">  
+                <label for="secCode">Security Code:</label>
+                <input type="text" class="form-control" id="secCode" placeholder="Security Code" >
+            </div> 
+            <div class="form-group two-thirds">  
+                <label for="cardName">Name on Card:</label>
+                <input type="text" class="form-control" id="cardName" placeholder="Cardholder's Name" >
+            </div>
+            <div class="alignment-right">
+                <input type="submit" value="Submit" class="btn btn-primary">
+                <input type="reset" value="Clear Fields" class="btn btn-default">
+            </div>
+        </div>
+       
+    </form>
+    </div>
+    <footer class="footer navbar-fixed-bottom">
+      <div class="container">
+        <p class="text-muted">&copy;2014 EMMA</p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+@import '_variables';
+@import '_mixins';
+@import '_sticky-footer-navbar';
+
+html{
+    background: url(../img/homebg.jpg) no-repeat center center fixed;
+    background-size: cover;    
+}
+
+.footer, .navbar {
+    background-color: #de6a10;
+    border: none;
+    z-index: 1;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #de6a10;
+}
+
+#content {
+    position: absolute;
+    top: 75vh;
+    min-height: 40vh;
+    background-color: #fff;
+    width: 100%;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+h1 {
+   font-weight: 200;
+}
+
+.nav>li>a {
+    font-family: Eurostile;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.navbar-brand {
+    font-family: Futura, arial, sans-serif;
+   font-size: 2.5rem;
+    
+}
+
+img{
+    margin: 3% auto;
+    padding-bottom: 20px;
+}
+
+.maps {
+    width: 100%;
+}
+
+.half {
+    width: 48%;
+    float: left;
+}
+
+.second-half {
+    width: 48%;
+    float: left;
+    margin-left: 4%;
+}
+
+.third {
+    width: 31%;
+    float: left;
+}
+
+.two-thirds {
+    width: 65%;
+    margin-left: 4%;
+    float: left;
+}
+
+form {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.alignment-right {
+    padding: 1% 1% 3% 1%;
+    float: right;
+}
